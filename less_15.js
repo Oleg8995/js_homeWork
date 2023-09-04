@@ -62,7 +62,7 @@ factorial(5);
 factorial(7);
 factorial(4);
 
-//   ===============================================
+//   ================================================
 
 // #3 Calculator
 // Create a function that accepts a callback
