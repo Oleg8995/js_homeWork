@@ -1,4 +1,4 @@
-// less 15
+// less 15 
 // #1  Quadratic equation
 // Create a function that solves quadratic equation
 // Use discriminant fot finding equation roots
@@ -40,7 +40,7 @@ const calculateQuadratic = (a, b, c) => {
   calculateQuadratic(4, 54, 68);
   calculateQuadratic(88, 57, 5);
 
-//   ================================================
+//   =================================================
 
 // #2  Factorial
 // Create a function that finds a factorial of a number
