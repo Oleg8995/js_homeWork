@@ -40,7 +40,7 @@ const calculateQuadratic = (a, b, c) => {
   calculateQuadratic(4, 54, 68);
   calculateQuadratic(88, 57, 5);
 
-//   =================================================
+//   ===================================================
 
 // #2  Factorial
 // Create a function that finds a factorial of a number
@@ -62,7 +62,7 @@ factorial(5);
 factorial(7);
 factorial(4);
 
-//   ===================================================
+//   ======================================================
 
 // #3 Calculator
 // Create a function that accepts a callback
