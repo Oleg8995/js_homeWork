@@ -12,7 +12,7 @@ reverse("hello");
 reverse("Oleg");
 reverse("JavaScript");
 
-// ===============================================
+// ================================================
 
 // # 2 Count words
 // Create a function that counts words in sentence
