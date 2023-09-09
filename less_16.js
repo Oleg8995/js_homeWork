@@ -1,47 +1,47 @@
 // # 1 Reverse str
 // Create a function that reverses str
 
-const reverse = (str) => {
+// const reverse = (str) => {
   
-    const reversestr = str.split('').reverse().join('');
-    console.log(reversestr);
-    return reversestr;
-};
+//     const reversestr = str.split('').reverse().join('');
+//     console.log(reversestr);
+//     return reversestr;
+// };
 
-reverse("hello");
-reverse("Oleg");
-reverse("JavaScript");
+// reverse("hello");
+// reverse("Oleg");
+// reverse("JavaScript");
 
 // ===============================================
 
 // # 2 Count words
 // Create a function that counts words in sentence
 
-const countWords = (str) => {
+// const countWords = (str) => {
  
-    let counter = str.split(' ').length ;
-    console.log(counter);
-    return counter;
-};
+//     const counter = str.split(' ').length;
+//     console.log(counter);
+//     return counter;
+// };
 
-countWords("Hi my name is Oleg");
-countWords("Lorem ipsum dolor sit amet consectetur adipisicing elit.");
+// countWords("Hi my name is Oleg");
+// countWords("Lorem ipsum dolor sit amet consectetur adipisicing elit.");
 
 // ==============================================
 
 // # 3 Clear whitespace
 // Create a function that clears spaces
 
-const clearWhiteSpace = (str) => {
+// const clearWhiteSpace = (str) => {
 
-    let clear = str.split(' ').join('');
-    console.log(clear);
-    return clear;
+//     const clear = str.split(' ').join('');
+//     console.log(clear);
+//     return clear;
 
-};
+// };
 
-clearWhiteSpace("  1   2  5ty  sgsg ");
-clearWhiteSpace("  dd 2 ty aa sgsg ");
+// clearWhiteSpace("  1   2  5ty  sgsg ");
+// clearWhiteSpace("  dd 2 ty aa sgsg ");
 
 // ==============================================
 
@@ -51,17 +51,21 @@ clearWhiteSpace("  dd 2 ty aa sgsg ");
 
 const cutStr = (str, maxLength) => {
   
+  let stt;
     if ( maxLength === str.length || str.length < maxLength ) {
 
-        console.log(str);
-        return str;
+        // console.log(str);
+        // return str;
     
     } else if ( str.length > maxLength ) {
 
-        short = str.slice(0, maxLength);
-        console.log(short + "...");
-        return short + "...";
+        str.slice(0, maxLength);
+        // console.log(short + "...");
+        // return short + "...";
     }
+
+    console.log(str);
+
 };
 
 cutStr("Hello", 5);
@@ -76,20 +80,20 @@ cutStr("Lorem ipsum dolor sit amet consectetur adipisicing elit.", 11);
 // and from end to start
 // Return true/false
 
-const palindrome = (str) => {
-  str = str.toLowerCase();
-  let reversestr = str.split('').reverse().join('');
-  if ( reversestr === str ) {
-    console.log(true);
-  } else {
-    console.log(false);
-  }
+// const palindrome = (str) => {
+//   str = str.toLowerCase();
+//   let reversestr = str.split('').reverse().join('');
+//   if ( reversestr === str ) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
  
-};
+// };
 
-palindrome("tenet");
-palindrome("Anna");
-palindrome("Oleg");
-palindrome("8");
-palindrome("878");
-palindrome("js");
+// palindrome("tenet");
+// palindrome("Anna");
+// palindrome("Oleg");
+// palindrome("8");
+// palindrome("878");
+// palindrome("js");
