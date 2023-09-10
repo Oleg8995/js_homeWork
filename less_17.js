@@ -267,9 +267,9 @@ const unique = (sortstr) => {
 
     uniquestrarr.forEach(uniquestr => {
         
-        if ( uniquestr.toLowerCase() === lowstr) {
-            isunique = false;
-        }
+      if ( uniquestr.toLowerCase() === lowstr) {
+          isunique = false;
+      }
     });
 
     if (isunique) {
