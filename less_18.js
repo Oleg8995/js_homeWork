@@ -77,7 +77,7 @@ generatePassword(5);
 generatePassword(15);
 
 
-// ==========================================================
+// ===========================================================
 
 // # 5 Calculate percentage with n numbers after dot
 
